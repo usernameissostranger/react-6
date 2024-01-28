@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    background-image: url(../img/mountain.png);
+  }
+  
+  .calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #252525;
+    border-radius: 8px;
+  }
+    
+  .inputField {
+    width: 93.5%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.5px solid #252525;
+    color: #252525;
+  }
+    
+  .buttonRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 0.5px solid #252525;
+  }
+    
+  button {
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.5px solid #252525;
+    color: #252525;
+  }
+    
+  .zeroButton {
+    width: 26px;
+  }
+    
+  .equalButton {
+    width: 100px;
+  }
+    
+  .result {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #252525;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    flex-grow: 1;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .operatorButton {
+    width: 25px;
+    font-size: 16px;
+    background-color: #252525;
+  }
+  
